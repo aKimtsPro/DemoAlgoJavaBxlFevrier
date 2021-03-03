@@ -37,7 +37,7 @@ public class DemoConditionnelles {
         else if( age <= 18 ) { // aTicket = false && age <= 18
             System.out.println("Le transport est gratuit");
         }
-        else if( age < 40) { // aTicket = false && age > 18 && age < 40
+        else if( age < 40 ) { // aTicket = false && age > 18 && age < 40
             System.out.println("Vous n'avez pas de ticket, voila votre amende de 15 euros");
             System.out.println(":)");
         }

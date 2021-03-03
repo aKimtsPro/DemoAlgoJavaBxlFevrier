@@ -8,7 +8,7 @@ public class DemoConditionnelles2 {
         System.out.println("Quel est votre age?");
         int age = scanner.nextInt();
 
-        switch ( age ){
+        switch ( age ) {
             case 0:
                 System.out.println("Tu viens de naitre");
                 break;
@@ -21,9 +21,10 @@ public class DemoConditionnelles2 {
             case 18:
                 System.out.println("Tu es désormais un adulte");
                 break;
-            default:
+            default: // optionel
                 System.out.println("Rien de particulier");
         }
+
 
     }
 
