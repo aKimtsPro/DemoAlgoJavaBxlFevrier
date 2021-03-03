@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exo8v2 {
+public class Exo14v2 {
 
     public static void main(String[] args) {
 
