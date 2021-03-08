@@ -21,5 +21,66 @@ public class Exo1 {
         song4.ecouter();
         song5.ecouter();
         song6.ecouter();
+
+        int taille = 5;
+
+
+        // ajout song1
+        Playlist playlist = new Playlist(5);
+        for (Musique musique : playlist.musiques) {
+            System.out.print(musique == null ? "null" : musique.titre);
+            System.out.print(" | ");
+        }
+        System.out.println();
+        playlist.ajouter(song1);
+
+        // ajout song2
+        for (Musique musique : playlist.musiques) {
+            System.out.print(musique == null ? "null" : musique.titre);
+            System.out.print(" | ");
+        }
+        System.out.println();
+        playlist.ajouter(song2);
+
+        // ajout song3
+        for (Musique musique : playlist.musiques) {
+            System.out.print( musique == null ? "null" : musique.titre);
+            System.out.print(" | ");
+        }
+        System.out.println();
+        playlist.ajouter(song3);
+
+        // ajout song4
+        for (Musique musique : playlist.musiques) {
+            System.out.print(musique == null ? "null" : musique.titre);
+            System.out.print(" | ");
+        }
+        System.out.println();
+        playlist.ajouter(song4);
+
+        // ajout song5
+        for (Musique musique : playlist.musiques) {
+            System.out.print(musique == null ? "null" : musique.titre);
+            System.out.print(" | ");
+        }
+        System.out.println();
+        playlist.ajouter(song5);
+
+        // ajout song6
+        for (Musique musique : playlist.musiques) {
+            System.out.print(musique == null ? "null" : musique.titre);
+            System.out.print(" | ");
+        }
+        System.out.println();
+        playlist.ajouter(song6);
+
+
+        for (Musique musique : playlist.musiques) {
+            System.out.print(musique == null ? "null" : musique.titre);
+            System.out.print(" | ");
+        }
+        System.out.println();
+
+
     }
 }
