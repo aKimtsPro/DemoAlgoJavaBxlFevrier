@@ -24,9 +24,9 @@ public class Exo2 {
 
         c.lancer();
 
-        System.out.println("or : " + c.podium.or.prenom);
-        System.out.println("argent : " + c.podium.argent.prenom);
-        System.out.println("bronze : " + c.podium.bronze.prenom);
+        System.out.println( "or : " + c.podium.or.getPrenom() );
+        System.out.println( "argent : " + c.podium.argent.getPrenom() );
+        System.out.println( "bronze : " + c.podium.bronze.getPrenom() );
     }
 
 }

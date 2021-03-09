@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Competition {
 
-    boolean isFinished = false;
+    private boolean isFinished = false;
     ArrayList<Sportif> participants = new ArrayList<>();
     Podium podium = null;
 
@@ -55,6 +55,10 @@ public class Competition {
             isFinished = true;
         }
 
+    }
+
+    public boolean isFinished(){
+        return this.isFinished;
     }
 
 
