@@ -1,4 +1,4 @@
-package poo.classes.exo;
+package poo.classes.exo.playlist;
 
 public class Playlist {
 
@@ -42,5 +42,8 @@ public class Playlist {
 
     void play(){
         // faire des trucs
+        for (int i = 0; i < taille && musiques[i] != null ; i++) {
+            musiques[i].ecouter();
+        }
     }
 }

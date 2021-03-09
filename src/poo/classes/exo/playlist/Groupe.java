@@ -1,4 +1,4 @@
-package poo.classes.exo;
+package poo.classes.exo.playlist;
 
 public class Groupe {
 

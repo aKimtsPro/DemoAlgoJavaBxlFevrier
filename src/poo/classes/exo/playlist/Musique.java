@@ -1,4 +1,4 @@
-package poo.classes.exo;
+package poo.classes.exo.playlist;
 
 public class Musique {
 
@@ -14,7 +14,7 @@ public class Musique {
         this.auteur = auteur;
     }
 
-    void ecouter(){
+    public void ecouter(){
         System.out.println( titre +" - "+ album +" - "+ auteur.nom +
                 " ( " + (duree/60) + ":" + (duree%60) +" ) a commencé à être jouée.");
     }
