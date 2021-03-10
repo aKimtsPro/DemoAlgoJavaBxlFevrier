@@ -22,7 +22,7 @@ public class Compte {
         if( montant > 0 ){
             solde += montant;
         }
-
+    
     }
 
     public double getSolde() {
