@@ -8,14 +8,6 @@ public class Cheval {
         this.nom = nom;
     }
 
-    // METHODS
-
-    public void sePresenter(){
-        System.out.println( this.nom );
-    }
-
-    // GET/SET
-
     public String getNom() {
         return nom;
     }
