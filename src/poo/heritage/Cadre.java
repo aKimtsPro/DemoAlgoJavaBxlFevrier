@@ -13,6 +13,12 @@ public class Cadre extends Personne {
         this.salaireMensuel = salaireMensuel;
     }
 
+    @Override
+    void sePresenter() {
+        super.sePresenter();
+        System.out.println("plus quelques trucs");
+    }
+
     public double getSalaireMensuel() {
         return salaireMensuel;
     }

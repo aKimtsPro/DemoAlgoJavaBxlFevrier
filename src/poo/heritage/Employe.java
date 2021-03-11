@@ -15,6 +15,19 @@ public class Employe extends Personne {
         this.heureParSemaine = heureParSemaine;
     }
 
+    @Override
+    void sePresenter(){
+
+        System.out.println("Employe :");
+        System.out.println(" - nom : " + getNom());
+        System.out.println(" - prenom : " + getPrenom());
+        System.out.println(" - date de naissance : " + getDateNaiss());
+        System.out.println(" - salaire horaire : " + salaireALHeure);
+        System.out.println(" - nbr heure par semaine : " + heureParSemaine);
+
+    }
+
+
 
 
     public double getSalaireALHeure() {
